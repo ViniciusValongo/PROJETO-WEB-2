@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+</head>
+<body style="background-color: rgb(133, 233, 240);">
+
+    <div class="container">
+
+        <div class="page-header">
+            <h1>Login Lojão</h1>
+        </div>       
+
+        <div class="row">
+            <div class="col-sm-8">
+                <h3>Cadastre-se</h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="name" id="nome" class="form-control" placeholder="Digite seu Nome">
+                    </div>
+                    <!--Form-group junta tudo-->
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="name" id="email" class="form-control" placeholder="Digite seu e-mail">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite sua senha">
+                    </div>
+
+                    <div class="checkbox">
+                        <label for="">
+                            <input type="checkbox">Aceito os termos do serviço
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+
+                </form>
+            </div>
+
+            <div class="col-sm-4">
+                <h3>Logar</h3>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="name" id="email" class="form-control" placeholder="Digite seu e-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite sua senha" >
+                </div>
+
+                <button class="btn btn-primary">Logar</button>
+
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
